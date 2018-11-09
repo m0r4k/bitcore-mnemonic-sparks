@@ -8,14 +8,14 @@ A module for [bitcore-sparks](https://github.com/sparkscoin/bitcore-sparks) that
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-mnemonic-sparks
-bower install bitcore-mnemonic-sparks
+npm install @sparksevo/bitcore-mnemonic-sparks
+bower install @sparksevo/bitcore-mnemonic-sparks
 ```
 
 There are many examples of how to use it on the developer guide [section for mnemonic](http://bitcore.io/guide/module/mnemonic/index.html). For example, the following code would generate a new random mnemonic code and convert it to a `HDPrivateKey`.
 
 ```javascript
-var Mnemonic = require('bitcore-mnemonic-sparks');
+var Mnemonic = require('@sparksevo/bitcore-mnemonic-sparks');
 var code = new Mnemonic(Mnemonic.Words.SPANISH);
 code.toString(); // natal hada sutil año sólido papel jamón combate aula flota ver esfera...
 var xpriv = code.toHDPrivateKey();

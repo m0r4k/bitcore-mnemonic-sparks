@@ -1,8 +1,8 @@
 {
   "name": "bitcore-mnemonic",
-  "main": "./bitcore-mnemonic-sparks.min.js",
+  "main": "./@sparksevo/bitcore-mnemonic-sparks.min.js",
   "version": "1.1.3",
-  "homepage": "https://github.com/sparkscoin/bitcore-mnemonic-sparks",
+  "homepage": "https://github.com/sparkscoin/@sparksevo/bitcore-mnemonic-sparks",
   "authors": [
     "BitPay"
   ],
